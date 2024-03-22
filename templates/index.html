@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block main %}
+<div class="wrapper", id="main">
+<!-- <input id="input" type="text" name="" id=""> -->
+<label for="basic-url"><h3><b>Введите URL адрес</b></h3></label>
+<div class="input-group mb-3" id="inner">
+  <input type="text" 
+        class="form-control" 
+        id="basic-url" 
+        placeholder="https://example.com" 
+        aria-describedby="basic-addon3"
+        value="https://www.wildberries.ru/catalog/0/search.aspx?search=%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%D0%BA%D0%B0%D1%80%D1%82%D1%8B">
+</div>
+<button class="btn btn-outline-success" id="button">Парсить</button>
+<button class="btn btn-outline-warning" id="button-result" disabled>Результат</button>
+</div>
+{% endblock %}

@@ -1,0 +1,34 @@
+html, body {
+    height: 100%;
+}
+
+.main {
+    padding: 300px;
+}
+
+h1 {
+    min-height: 50px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    padding-bottom: 200px;
+}
+
+.btn {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+#inner {
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+#wrapper {
+    margin-top: 50px;
+}
