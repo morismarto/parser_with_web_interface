@@ -1,5 +1,5 @@
-# PROJ_NAME
+# Wildberries parser
 
-## DESCR
+## Parser
 
-description place
+parser
